@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700;900&family=Poppins:wght@200;300&display=swap');
 
 :root {
   --white: #fff;
@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 p {
@@ -44,14 +44,19 @@ img {
   height: 100vh;
 }
 
+h1{
+  color: #4e479a;
+  font-size: 28px;
+}
+
 .counter-div{
   width: 40rem;
   border: 1px solid var(--grey);
   padding: 1rem;
-  background-color: rgb(99, 164, 197);
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
   color: white;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 15px;
 
 }
 
@@ -60,7 +65,7 @@ img {
 }
 
 .count{
-  font-size: 4rem;
+  font-size: 6rem;
 }
 
 .buttons button{
@@ -84,3 +89,4 @@ button.reset{
 button.add{
   background-color: rgb(159, 116, 222);
 }
+

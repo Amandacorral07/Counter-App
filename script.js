@@ -23,7 +23,7 @@ function setColor(){
     if (count.innerHTML > 0){
         count.style.color = 'yellow'
     } else if (count.innerHTML < 0){
-        count.style.color = '#34ebab'
+        count.style.color = ' #118a7e'
     } else {
         count.style.color = 'white'
     }
